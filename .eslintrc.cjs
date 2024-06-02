@@ -7,6 +7,7 @@ module.exports = {
     '@electron-toolkit/eslint-config-prettier'
   ],
   rules: {
-    'prettier/prettier': ['error', { semi: true }]
+    'prettier/prettier': ['error', { semi: true }],
+    '@typescript-eslint/explicit-function-return-type': 'off'
   }
 };

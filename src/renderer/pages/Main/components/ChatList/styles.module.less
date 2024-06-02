@@ -1,0 +1,48 @@
+.chat-list {
+  width: 320px;
+  height: 100%;
+  overflow-y: auto;
+  background-color: var(--default-bg-color);
+  border-right: 1px solid var(--box-border-color);
+}
+
+.friend-search {
+  .friend-search-title {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+
+    span {
+      font-size: 22px;
+      font-weight: bold;
+      color: #00a3ff;
+    }
+  }
+
+  .friend-search-input {
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    column-gap: 12px;
+
+    input {
+      width: 246px;
+      height: 40px;
+      border: 1px solid var(--input-border-color);
+      border-radius: 8px;
+      padding: 0 14px;
+      font-size: 14px;
+      box-sizing: border-box;
+      color: #333;
+      background-color: var(--default-bg-color);
+    }
+
+    .add-friend-icon {
+      cursor: pointer;
+      width: 1em;
+      height: auto;
+      font-size: 40px;
+    }
+  }
+}
